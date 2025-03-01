@@ -14,6 +14,11 @@ app.use(routes);
 app.use(errors());
 
 /**
+ * app.listen(3333);
+ */
+module.exports = app;
+
+/**
  * Rota / Recurso
  */
 
@@ -43,5 +48,3 @@ app.use(errors());
  * Driver: SELECT * FROM users
  * Query Builder: table('users').select('*').where()
  */
-
-app.listen(3333);
